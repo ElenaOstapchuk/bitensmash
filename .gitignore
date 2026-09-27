@@ -1,39 +1,27 @@
-# Unity generated
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
-/[Rr]ecordings/
-/[Uu]serSettings/
+# Unreal generated
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
 
-# Asset meta data should only be ignored when the corresponding asset is also ignored
-!/[Aa]ssets/**/*.meta
-
-# Visual Studio / Rider cache
+# IDE
 .vs/
 .idea/
-*.csproj
 *.sln
 *.suo
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
-*.pdb
-*.mdb
-*.opendb
+*.sdf
 *.VC.db
+*.opensdf
+*.opendb
+*.xcworkspace
 
-# OS generated
-.DS_Store
+# Blender backups
+*.blend1
+*.blend2
+
+# OS
 Thumbs.db
-
-# Crashlytics
-crashlytics-build.properties
-
-# Packages resolved lock (keep manifest.json, ignore generated lock if desired)
-# /Packages/packages-lock.json
+.DS_Store
